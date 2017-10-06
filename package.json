@@ -22,9 +22,20 @@
     "mathjs": "^3.16.4",
     "npm": "^5.4.2",
     "threads": "^0.8.1",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "ansi-styles": "^3.1.0",
+		"escape-string-regexp": "^1.0.5",
+		"supports-color": "^4.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.7.3"
+    "prettier": "^1.7.3",
+    "ava": "*",
+		"coveralls": "^2.11.2",
+		"execa": "^0.8.0",
+		"import-fresh": "^2.0.0",
+		"matcha": "^0.7.0",
+		"nyc": "^11.0.2",
+		"resolve-from": "^3.0.0",
+		"xo": "*"
   }
 }
