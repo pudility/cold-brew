@@ -9,6 +9,10 @@ Array.prototype.remove = function() {
     }
     return this;
 };
+Math.eval = require('mathjs').eval;
+const chalk = require(__dirname + '/modules/chalk');
+
+console.color = chalk;
 const { spawn } = require('threads');
 
 const interpriter = (func) => {
@@ -20,19 +24,7 @@ process.child = (func) => {
 }
 
 
-Math.eval = require('mathjs').eval;
-const chalk = require(__dirname + '/modules/chalk');
-
-console.color = chalk;
 Math.tools = require('mathjs');
-Array.prototype.findIndex = function(id, search) {
-  for (var i = 0; i < this.length; i++) {
-    if (this[i][id] === search) {
-      return i;
-    };
-  }
-}
-
 const Enum = (input, object) => {
   let index;
 
@@ -47,4 +39,20 @@ const Enum = (input, object) => {
     }
   })
 }
-console.color.blue("hola");
+Array.prototype.findIndex = function(id, search) {
+  for (var i = 0; i < this.length; i++) {
+    if (this[i][id] === search) {
+      return i;
+    };
+  }
+}
+
+function red(_callback) {
+  if (_callback) _callback();
+}
+
+red(() => {
+  console.log('blue');
+});
+
+red();

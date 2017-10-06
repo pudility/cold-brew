@@ -1,5 +1,7 @@
 function red() {}
 
 red(() => {
-  console.log('hi');
+  console.log('blue');
 });
+
+red();

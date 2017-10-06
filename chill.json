@@ -13,6 +13,7 @@
     "./modules/add_enum_switch.js"
   ],
   "run": [
+    "./tests/test.js"
   ],
   "out": "./out.js"
 }
