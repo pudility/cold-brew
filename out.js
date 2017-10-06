@@ -9,7 +9,6 @@ Array.prototype.remove = function() {
     }
     return this;
 };
-Math.eval = require('mathjs').eval;
 const { spawn } = require('threads');
 
 const interpriter = (func) => {
@@ -21,6 +20,7 @@ process.child = (func) => {
 }
 
 
+Math.eval = require('mathjs').eval;
 const chalk = require(__dirname + '/modules/chalk');
 
 console.color = chalk;
