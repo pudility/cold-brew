@@ -3,9 +3,8 @@ A set of helpful JavaScript functions and plugins.
 
 # Usage
 ## install
-~~```bash
-npm i -g cold-brew-plugin
-```~~
+~~`$ npm i -g cold-brew-plugin`~~
+
 ```bash
 npm i cold-brew-plugin
 ```
