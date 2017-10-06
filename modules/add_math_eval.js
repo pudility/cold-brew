@@ -1,0 +1,1 @@
+Math.eval = require('mathjs').eval;

@@ -1,0 +1,30 @@
+{
+  "name": "cold-brew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "chill": "index.js"
+  },
+  "scripts": {
+    "lint": "./env.sh babylon jsec json5 mathjs mkdirp",
+    "test": "node index.js test.json",
+    "start": "echo 'have you edited your index.json file?' && node run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "chalk": "^2.1.0",
+    "http": "0.0.0",
+    "install": "^0.10.1",
+    "mathjs": "^3.16.4",
+    "npm": "^5.4.2",
+    "threads": "^0.8.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.7.3"
+  }
+}

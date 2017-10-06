@@ -1,0 +1,18 @@
+{
+  "babel": [
+    "./modules/add_callback.js"
+
+  ],
+  "scripts": [
+    "./modules/array_remove.js",
+    "./modules/add_child.js",
+    "./modules/apply_chalk.js",
+    "./modules/add_math_eval.js",
+    "./modules/add_all_math.js",
+    "./modules/indexof_obj.js",
+    "./modules/add_enum_switch.js"
+  ],
+  "run": [
+  ],
+  "out": "./out.js"
+}
