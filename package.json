@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "./env.sh babylon jsec json5 mathjs mkdirp",
     "test": "node index.js test.json",
-    "start": "echo 'have you edited your index.json file?' && node run.js"
+    "start": "echo 'have you edited your chill.json file?' && node run.js"
   },
   "keywords": [],
   "author": "",
