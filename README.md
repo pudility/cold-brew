@@ -3,12 +3,10 @@ A set of helpful JavaScript functions and plugins.
 
 # Usage
 ## install
-~~`$ npm i -g cold-brew-plugin`~~
-
 ```bash
-npm i cold-brew-plugin
+npm i -g cold-brew-plugin
 ```
-(global package in the works)
+
 ## config
 configure the chill.json file with the script you want to run
 

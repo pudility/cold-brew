@@ -39,7 +39,7 @@ const add_scripts = (callback) => {
 
 const appy_babel = (callback) => {
   _.each(obj.run, function (val, i) {
-    const path = __dirname + '/' + val;
+    const path = process.cwd() + '/' + val;
 
     fs.readFile(path, function(err, data) {
       if (err) throw err;

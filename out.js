@@ -24,7 +24,6 @@ const chalk = require(__dirname + '/modules/chalk');
 
 console.color = chalk;
 Math.eval = require('mathjs').eval;
-Math.tools = require('mathjs');
 const Enum = (input, object) => {
   let index;
 
@@ -39,6 +38,7 @@ const Enum = (input, object) => {
     }
   })
 }
+Math.tools = require('mathjs');
 Array.prototype.findIndex = function(id, search) {
   for (var i = 0; i < this.length; i++) {
     if (this[i][id] === search) {
@@ -47,10 +47,10 @@ Array.prototype.findIndex = function(id, search) {
   }
 }
 
-function red(_callback) {
-  _callback();
-}
+const hi = () => {};
 
-red(() => {
-  console.log('hi');
+hi(() => {
+	console.log('hi');
 });
+
+console.log("hola");
