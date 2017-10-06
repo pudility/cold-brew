@@ -7,7 +7,7 @@
     "chill": "index.js"
   },
   "scripts": {
-    "lint": "./env.sh babylon jsec json5 mathjs mkdirp",
+    "lint": "./env.sh babylon jsec json5 mathjs mkdirp babel-core",
     "test": "node index.js test.json",
     "start": "echo 'have you edited your chill.json file?' && node run.js"
   },
